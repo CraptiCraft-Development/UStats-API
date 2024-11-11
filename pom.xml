@@ -51,7 +51,7 @@
                 <configuration>
                     <show>private</show>
                     <nohelp>true</nohelp>
-                    <excludes>UStats-Main.src.main.java.me.loving11ish.ustats.**</excludes>
+                    <excludes>UStats-Core.src.main.java.me.loving11ish.ustats.**</excludes>
                 </configuration>
                 <executions>
                     <execution>
