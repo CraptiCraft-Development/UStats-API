@@ -2,9 +2,11 @@ package me.loving11ish.ustatsapi;
 
 import me.loving11ish.ustatsapi.enums.Enums;
 import org.bukkit.Bukkit;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.RegisteredServiceProvider;
 
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -171,4 +173,10 @@ public interface UStatsAPI {
      * @return Returns the stats type of the event type.
      */
     Enums.StatsType getStatsType(Enums.EventType eventType);
+
+    /**
+     *
+     * @return Returns a list of OfflinePlayer objects that currently have data stored.
+     */
+    List<OfflinePlayer> getOfflinePlayersWithStats();
 }
