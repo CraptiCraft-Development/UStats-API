@@ -6,7 +6,7 @@
 
     <groupId>me.loving11ish</groupId>
     <artifactId>UStats-API</artifactId>
-    <version>1.0.0-BETA-01</version>
+    <version>1.0.0-BETA-02</version>
     <packaging>jar</packaging>
 
     <name>UStats-API</name>
