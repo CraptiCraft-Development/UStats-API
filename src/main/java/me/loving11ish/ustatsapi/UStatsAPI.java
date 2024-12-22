@@ -53,6 +53,19 @@ public interface UStatsAPI {
     String getDescription();
 
     /**
+     * @param text The string of text to apply color/effects to
+     * @return Returns a string of text with color/effects applied
+     */
+    String translateColorCodes(String text);
+
+    /**
+     * Strips all chat colors, HEX colors, and MiniMessage colors from the provided string.
+     * @param text The string to strip colors from.
+     * @return The string without any color codes.
+     */
+    String stripColorCodes(String text);
+
+    /**
      *
      * @param statsType The stats type to get the name of.
      * @return Returns the name of the stats type.

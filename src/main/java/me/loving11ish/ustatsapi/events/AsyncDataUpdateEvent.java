@@ -128,4 +128,12 @@ public class AsyncDataUpdateEvent extends Event implements Cancellable {
     public @NotNull HandlerList getHandlers() {
         return handlers;
     }
+
+    /**
+     * Get the handlers for the event
+     * @return The handlers
+     */
+    public static HandlerList getHandlerList() {
+        return handlers;
+    }
 }
