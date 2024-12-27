@@ -9,7 +9,7 @@ This new version supports server versions from 1.16.5 to the very lates Minecraf
 a fresh new in game look, new commands and more...
 
 If you wish to try see the new updates please visit:
-* SPIGOT: https://www.spigotmc.org/resources/ultimate-stats-collect-showcase-player-stats-now-reduced-price.60868/
+* SPIGOT: https://www.spigotmc.org/resources/ustats-collect-showcase-player-stats.60868/
 * BUILTBYBIT: https://builtbybit.com/resources/ultimate-stats.12576/
 * POLYMART: https://polymart.org/resource/ultimate-stats.982
 
