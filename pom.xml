@@ -79,12 +79,15 @@
     </repositories>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.spigotmc/spigot-api -->
+        <!-- Spigot-api is provided by main server instance -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
         <dependency>
             <groupId>org.jetbrains</groupId>
